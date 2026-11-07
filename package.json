@@ -1,13 +1,18 @@
 {
   "name": "projet_francais",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
+
+  "engines": {
+    "node": "20.x"
+  },
+
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
@@ -16,7 +21,8 @@
     "react-router-dom": "^6.30.0",
     "swiper": "^14.4.0"
   },
+
   "devDependencies": {
-    "vite": "^5.4.10"
+    "vite": "5.4.10"
   }
 }
